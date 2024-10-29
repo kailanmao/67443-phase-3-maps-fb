@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B59B6BD2CD192D000F0B57C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B59B6BC2CD192D000F0B57C /* GoogleService-Info.plist */; };
 		6B7163712CCA5A73009279C1 /* MapsAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7163702CCA5A73009279C1 /* MapsAPIApp.swift */; };
 		6B7163732CCA5A73009279C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7163722CCA5A73009279C1 /* ContentView.swift */; };
 		6B7163752CCA5A76009279C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7163742CCA5A76009279C1 /* Assets.xcassets */; };
 		6B7163782CCA5A76009279C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7163772CCA5A76009279C1 /* Preview Assets.xcassets */; };
-		6B8055C92CD18F9B00542FB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B8055C82CD18F9B00542FB1 /* GoogleService-Info.plist */; };
 		6BE3A69D2CCA5F300041E1F5 /* LocationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE3A69C2CCA5F300041E1F5 /* LocationRepository.swift */; };
 		7850E1086FE33AB5418C7C99 /* Pods_MapsAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E9186CB7A0C664DB01422E /* Pods_MapsAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B59B6BC2CD192D000F0B57C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6B71636D2CCA5A73009279C1 /* MapsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7163702CCA5A73009279C1 /* MapsAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsAPIApp.swift; sourceTree = "<group>"; };
 		6B7163722CCA5A73009279C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6B7163742CCA5A76009279C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B7163772CCA5A76009279C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6B8055C82CD18F9B00542FB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6BE3A69C2CCA5F300041E1F5 /* LocationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRepository.swift; sourceTree = "<group>"; };
 		B5E9186CB7A0C664DB01422E /* Pods_MapsAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapsAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D278D15A88A744AD5DB94E /* Pods-MapsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapsAPI.debug.xcconfig"; path = "Target Support Files/Pods-MapsAPI/Pods-MapsAPI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		6B71636F2CCA5A73009279C1 /* MapsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				6B8055C82CD18F9B00542FB1 /* GoogleService-Info.plist */,
+				6B59B6BC2CD192D000F0B57C /* GoogleService-Info.plist */,
 				6B7163702CCA5A73009279C1 /* MapsAPIApp.swift */,
 				6B7163722CCA5A73009279C1 /* ContentView.swift */,
 				6B7163742CCA5A76009279C1 /* Assets.xcassets */,
@@ -159,7 +159,7 @@
 			files = (
 				6B7163782CCA5A76009279C1 /* Preview Assets.xcassets in Resources */,
 				6B7163752CCA5A76009279C1 /* Assets.xcassets in Resources */,
-				6B8055C92CD18F9B00542FB1 /* GoogleService-Info.plist in Resources */,
+				6B59B6BD2CD192D000F0B57C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
