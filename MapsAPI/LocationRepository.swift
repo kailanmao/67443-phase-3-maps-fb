@@ -33,7 +33,7 @@ class LocationRepository: ObservableObject {
       func get() {
           // Complete this function
           // Fetch data from the Firestore "locations" collection
-          db.collection("location").addSnapshotListener { (querySnapshot, error) in
+          db.collection("locations").addSnapshotListener { (querySnapshot, error) in
               // Error handling
               if let error = error {
                   print("Error fetching documents: \(error)")

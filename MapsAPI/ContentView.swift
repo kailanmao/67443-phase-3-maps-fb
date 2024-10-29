@@ -13,14 +13,13 @@ struct Location: Identifiable, Codable {
   var id = UUID()
   var longitude: Double
   var latitude: Double
-  var description: String
+  var name: String
   
   // To conform to Codable protocol
   enum CodingKeys: String, CodingKey {
-    case id
     case longitude
     case latitude
-    case description
+    case name = "locationName"
   }
   
   // To conform to Comparable protocol
@@ -44,10 +43,11 @@ struct ContentView: View {
     var body: some View {
       let locations = locationRepository.locations
       VStack {
+        Text("Array length: \(locations.count)")
         NavigationView {
           Map() {
             ForEach(locations) { c in
-              Marker(c.description, coordinate: CLLocationCoordinate2D(latitude: CLLocationDegrees(c.latitude), longitude: CLLocationDegrees(c.longitude)))
+              Marker(c.name, coordinate: CLLocationCoordinate2D(latitude: CLLocationDegrees(c.latitude), longitude: CLLocationDegrees(c.longitude)))
             }
             
           }
